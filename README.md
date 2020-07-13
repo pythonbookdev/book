@@ -42,5 +42,3 @@ Please use Github Issues for general feedback, or send a message on [Twitter](ht
 
 We were inspired to write this book after the strong response to [this](https://www.reddit.com/r/learnpython/comments/hk9rw9/is_it_worth_creating_another_python_coursetutorial/) Reddit post and multiple requests for an "Intermediate Python" course.
 
-Thanks to "[A Byte of Python](https://python.swaroopch.com/)" for introducing [Gitbook](https://www.gitbook.com/), which is a great medium to write an open source book.
-

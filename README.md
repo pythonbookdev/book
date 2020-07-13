@@ -38,7 +38,3 @@ This book is [open source](https://github.com/pythonbookdev/book) and welcomes c
 
 Please use Github Issues for general feedback, or send a message on [Twitter](https://twitter.com/ukshah2).
 
-### Credits
-
-We were inspired to write this book after the strong response to [this](https://www.reddit.com/r/learnpython/comments/hk9rw9/is_it_worth_creating_another_python_coursetutorial/) Reddit post and multiple requests for an "Intermediate Python" course.
-

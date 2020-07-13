@@ -1,4 +1,4 @@
-# Motivation
+# Why Python?
 
 Why would someone write a production application in Python?
 

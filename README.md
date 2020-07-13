@@ -1,12 +1,8 @@
 # Production Ready Python
 
-Welcome to Production Ready Python. This book's focus is on the structure of large Python programs, commonly used language features and data structure libraries, and helping you write maintainable, testable and production ready code.
+Welcome to Production Ready Python. This book's goal is to make you comfortable with backend Python code for your day job in the least amount of time. You should be able to read and grok a large codebase, contribute a clean, well tested, debuggable, maintainable, and Pythonic feature to it, and effectively debug issues in it after launch. Additionally, after this book, you should feel comfortable using Python in technical interviews.
 
 ### Intended Audience
-
-The desired outcome is to make you comfortable with backend Python code for your day job in the least amount of time. You should be able to read and grok a large codebase, contribute a clean, well tested, debuggable, maintainable, and Pythonic feature to it, and effectively debug issues in it after launch.
-
-Additionally, after this book, you should feel comfortable using Python in technical interviews.
 
 The book is targeted towards learners who know basic Python - those who can already manipulate simple data structures like lists, and can write simple programs.
 

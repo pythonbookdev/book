@@ -4,7 +4,7 @@ Welcome to Production Ready Python. This book's focus is on the structure of lar
 
 ### Intended Audience
 
-Python can be used for a large set of tasks, but this book specifically dives into writing code for a large codebase with multiple authors. The aim is to make you comfortable using Python for a day job with such a codebase, and for interviews that demand those skills. It's targeted towards learners who know basic Python - those who already can manipulate inbuilt data structures and write simple programs. 
+Python can be used for a large set of tasks, but this book specifically dives into writing code for a large codebase with multiple authors. The aim is to make you comfortable using Python for a day job with such a codebase, and for interviews that demand those skills. It's targeted towards learners who know basic Python - those who can already manipulate simple data structures like lists, and can write simple programs. 
 
 **This book is not intended to be a good reference for data science/ML, so it won't dive into any data science specific concepts/modules, like `numpy` .**
 
@@ -22,10 +22,9 @@ Concepts covered
 * Testing via `pytest` . Best practices for writing tests, and correct use of `mock` and `mock.patch` 
 * Scripting Concepts, like argument parsing
 * `requests` for HTTP
+* `pip` and `virtualenv` for external dependencies
 
-
-
-This book is heavily biased towards teaching concepts that I've seen commonly used in large Python codebases. For example, I've rarely seen use of the functional operators like `map/reduce/filter`, so those will be omitted here. In contrast, we'll go over iterators and generators. This will reduce superfluous material you need to learn. 
+This book is heavily biased towards teaching concepts that we've seen commonly used in large Python codebases. For example, we've rarely seen use of functional operators like `map/reduce/filter`, so those will be omitted here. In contrast, we'll go over iterators and generators. This will reduce superfluous material you need to learn. 
 
 ### Open Source / Open Content
 
@@ -34,4 +33,10 @@ You might have noticed a big "Edit with Github" link on the side. This book is o
 ### Feedback
 
 Please use Github Issues for general feedback, or send a message to me on [Twitter](https://twitter.com/ukshah2).
+
+### Credits
+
+We were inspired to write this course after the strong response to [this](https://www.reddit.com/r/learnpython/comments/hk9rw9/is_it_worth_creating_another_python_coursetutorial/) Reddit post and multiple requests for an "Intermediate Python" course.
+
+Thanks to "[A Byte of Python](https://python.swaroopch.com/)" for introducing [Gitbook](https://www.gitbook.com/), which is a great medium to write an open source book.
 

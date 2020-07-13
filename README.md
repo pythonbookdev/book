@@ -19,7 +19,7 @@ Concepts covered
 * Context managers
 * File I/O. Reading and writing a common format like `JSON` 
 * Exceptions. Best practices for handling exceptions in production code
-* Testing via `pytest` . Best practices for writing tests, and correct use of `mock` and `mock.patch` 
+* Testing via `pytest` . Best practices for writing tests, and appropriate use of `mock` and `mock.patch` 
 * Scripting Concepts, like argument parsing
 * `requests` for HTTP
 * `pip` and `virtualenv` for external dependencies

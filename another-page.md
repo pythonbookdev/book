@@ -33,6 +33,8 @@ numbers.add("not a number");
 
 Python
 
+[https://repl.it/@Utsav2/DynamicTyping?lite=true](https://repl.it/@Utsav2/DynamicTyping?lite=true)
+
 ```python
 numbers = [1, 2, 3] # no type required
 numbers.append("not a number") # Python allows this

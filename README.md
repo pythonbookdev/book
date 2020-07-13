@@ -1,36 +1,41 @@
 # Production Ready Python
 
-Welcome to Production Ready Python. This book's focus is on the structure of large Python programs, commonly used language features and data structure libraries, and maintainable, testable and production ready code.
+Welcome to Production Ready Python. This book's focus is on the structure of large Python programs, commonly used language features and data structure libraries, and helping you write maintainable, testable and production ready code.
 
 ### Intended Audience
 
-Python can be used for a large set of tasks, but this book specifically dives into writing code for a large codebase with multiple authors. The aim is to make you comfortable using Python for a day job with such a codebase, and for interviews that demand those skills. It's targeted towards learners who know basic Python - those who can already manipulate simple data structures like lists, and can write simple programs. 
+The desired outcome is to make you comfortable with backend Python code for your day job in the least amount of time. You should be able to read and grok a large codebase, contribute a clean, well tested, debuggable, maintainable, and Pythonic feature to it, and effectively debug issues in it after launch.
 
-**This book is not intended to be a good reference for data science/ML, so it won't dive into any data science specific concepts/modules, like `numpy` .**
+Additionally, after this book, you should feel comfortable using Python in technical interviews.
+
+The book is targeted towards learners who know basic Python - those who can already manipulate simple data structures like lists, and can write simple programs.
 
 ### Material
 
-Concepts covered
+* We target Python 3, since Python 2 has reached its end of life
+* We try to stick to standard library modules as much as possible, with a few exceptions like `requests` due to their ubiquity
 
-* Python 3.8
-* Python code formatting and style guide
+**Concepts covered:**
+
+* Python code formatting and style guides
 * Quick recap on data structures like `list`, `dict`, and `set` 
 * The `collections` module and some commonly used data structures like `defaultdict`, `namedtuple` 
-* Context managers
+* Context managers - the `with` statement
 * File I/O. Reading and writing a common format like `JSON` 
 * Exceptions. Best practices for handling exceptions in production code
 * Testing via `pytest` . Best practices for writing tests, and appropriate use of `mock` and `mock.patch` 
-* Scripting Concepts, like argument parsing
+* Writing effective scripts -- parsing arguments and subprocess calls
 * `requests` for HTTP
 * `pip` and `virtualenv` for external dependencies
-* Code organization, Pythonic code, and conventions
+* Code organization, Pythonic code, and conventions -- designing for debuggability
+* Effective Logging
 * Typing in Python and Mypy
 
-This book is heavily biased towards teaching concepts that we've seen commonly used in large Python codebases. For example, we've rarely seen use of functional operators like `map/reduce/filter`, so those will be omitted here. This will reduce superfluous material you need to learn.
+This book is geared towards teaching concepts that we've seen commonly used in large Python codebases. For example, we've rarely seen use of functional operators like `map/reduce/filter`, so those will be omitted here. This will reduce superfluous material you need to learn.
 
-Finally, we will give unique insights into the experience of maintaining large scale Python applications when relevant.
+Finally, we will give unique insights into our experience of managing large scale Python backend applications when relevant.
 
-### Open Source / Open Content
+### Open Source
 
 This book is [open source](https://github.com/pythonbookdev/book) and welcomes contributions. For larger changes, like adding a new section, make a Github Issue for discussion, and directly send a pull request for small changes.
 

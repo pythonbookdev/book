@@ -1,4 +1,5 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Welcome to Intermediate Python](README.md)
+* [Another page](another-page.md)
 

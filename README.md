@@ -20,8 +20,9 @@ Concepts covered
 * File I/O. Reading and writing a common format like `JSON` 
 * Exceptions. Best practices for handling exceptions in production code
 * Testing via `pytest` . Best practices for writing tests, and correct use of `mock` and `mock.patch` 
-* Python scripting - best practices
-
+* Scripting Concepts, like argument parsing
+* `requests` for HTTP
+* 
 This book is heavily biased towards teaching concepts that I've seen commonly used in large Python codebases. For example, I've rarely seen use of the functional operators like `map/reduce/filter`, so those will be omitted here. In contrast, we'll go over iterators and generators. This will reduce superfluous material you need to learn. 
 
 ### Open Source / Open Content

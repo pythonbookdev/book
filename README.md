@@ -22,12 +22,14 @@ Concepts covered
 * Testing via `pytest` . Best practices for writing tests, and correct use of `mock` and `mock.patch` 
 * Scripting Concepts, like argument parsing
 * `requests` for HTTP
-* 
+
+
+
 This book is heavily biased towards teaching concepts that I've seen commonly used in large Python codebases. For example, I've rarely seen use of the functional operators like `map/reduce/filter`, so those will be omitted here. In contrast, we'll go over iterators and generators. This will reduce superfluous material you need to learn. 
 
 ### Open Source / Open Content
 
-You might have noticed a big "Edit with Github" link on the side. This book is open source and welcomes contributions. If you believe there should be a large change, like adding a new section, make a Github Issue for discussion.
+You might have noticed a big "Edit with Github" link on the side. This book is open source and welcomes contributions. For larger changes, like adding a new section, make a Github Issue for discussion, and directly send a pull request for small changes.
 
 ### Feedback
 

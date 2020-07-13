@@ -22,16 +22,12 @@ Concepts covered
 * Testing via `pytest` . Best practices for writing tests, and correct use of `mock` and `mock.patch` 
 * Scripting Concepts, like argument parsing
 * `requests` for HTTP
-* `pip` and `virtualenv` for external dependencies
-* Code organization, Pythonic code, and conventions
 
-This book is heavily biased towards teaching concepts that we've seen commonly used in large Python codebases. For example, we've rarely seen use of functional operators like `map/reduce/filter`, so those will be omitted here. This will reduce superfluous material you need to learn.
-
-Finally, we will give unique insights into the experience of maintaining large scale Python applications when relevant.
+This book is heavily biased towards teaching concepts that we've seen commonly used in large Python codebases. For example, we've rarely seen use of functional operators like `map/reduce/filter`, so those will be omitted here. In contrast, we'll go over iterators and generators. This will reduce superfluous material you need to learn. 
 
 ### Open Source / Open Content
 
-This book is [open source](https://github.com/pythonbookdev/book) and welcomes contributions. For larger changes, like adding a new section, make a Github Issue for discussion, and directly send a pull request for small changes.
+You might have noticed a big "Edit with Github" link on the side. This book is open source and welcomes contributions. For larger changes, like adding a new section, make a Github Issue for discussion, and directly send a pull request for small changes.
 
 ### Feedback
 
@@ -39,7 +35,7 @@ Please use Github Issues for general feedback, or send a message to me on [Twitt
 
 ### Credits
 
-We were inspired to write this book after the strong response to [this](https://www.reddit.com/r/learnpython/comments/hk9rw9/is_it_worth_creating_another_python_coursetutorial/) Reddit post and multiple requests for an "Intermediate Python" course.
+We were inspired to write this course after the strong response to [this](https://www.reddit.com/r/learnpython/comments/hk9rw9/is_it_worth_creating_another_python_coursetutorial/) Reddit post and multiple requests for an "Intermediate Python" course.
 
 Thanks to "[A Byte of Python](https://python.swaroopch.com/)" for introducing [Gitbook](https://www.gitbook.com/), which is a great medium to write an open source book.
 

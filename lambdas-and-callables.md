@@ -19,6 +19,14 @@ greet()
 
 It's also possible to make regular [objects](https://stackoverflow.com/questions/111234/what-is-a-callable) \(instances of a `class` \) callable, but we rarely need to do that, so we're omitting that here. On the other hand, it's often useful to create a function on the fly. 
 
+The builtin types are callables too. Calling them returns the default value of their type.
+
+```text
+>>> assert callable(str)
+>>> assert str() == ''
+>>> assert int() == 0
+```
+
 ### Lambdas
 
 Let's say we want to make a simple calculator: 

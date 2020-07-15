@@ -2,7 +2,7 @@
 
 > Prerequisites - Knowing how basic data structures like `list`, `dict`, `tuple`and `set` work.
 
-Most standard back-end tasks require one of the inbuilt data structures. But sometimes, it's more idiomatic to use a particular data structure, or there's a requirement for a special property, like a dictionary that keeps track of insertion order. We'll be covering some useful modules from the `collections` module that fit that bill.
+Most backend tasks can be done with one of the built-in data structures. But sometimes, it's more idiomatic to use a specialized data structure, or there's a need for a special feature, like a dictionary that keeps track of insertion order. We'll be covering some useful modules from the `collections` module that fit that bill.
 
 ### defaultdict
 
@@ -12,27 +12,32 @@ Its first argument is a `Callable` that is instantiated and set as the key's val
 
 ```python
 >>> from collections import defaultdict
->>> dictionary = defaultdict(str) # str is a callable, since you can do str() and get back a string
+>>> 
+>>> # quick refresher: types are also callables
+>>> assert 5 == int(5)
+>>> assert '' == str()
+>>> 
+>>> # defaultdict takes a callable
+>>> dictionary = defaultdict(str) 
 >>> dictionary
 defaultdict(<class 'str'>, {})
 >>> len(dictionary)
 0
 
-# automatic creation on retrieving a key
+>>> # if the key doesn't exist but is accessed, the callable
+>>> # is called, and the value is stored for that key
 >>> dictionary['hello']
 ''
 >>> dictionary
 defaultdict(<class 'str'>, {'hello': ''})
->>> len(dictionary)
-1
+>>>
+>>> # setting a value remains the same
 >>> dictionary['byebye'] = 'farewell'
 >>> dictionary
 defaultdict(<class 'str'>, {'hello': '', 'byebye': 'farewell'})
 
-# Advanced concepts ahead. Read this if you understand lambdas and callables
-
-# defaultdict can take any lambda as a default value, since a lambda is
-# just another callable
+>>> # defaultdict can take any lambda as a default value, since a lambda is
+>>> # just another callable
 >>> another_dictionary = defaultdict(lambda: 'default string')
 >>> another_dictionary['hello'] += ' another string'
 >>> another_dictionary
@@ -74,9 +79,9 @@ print(total_per_page_dict)
 # {'/': 10, '/home': 15, '/get': 10}
 
 
-#
+
 # ==================================
-#
+
 
 
 # the default dictionary way

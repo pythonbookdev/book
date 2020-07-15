@@ -88,7 +88,8 @@ sleep(...)
 
 # verify the syntax
 >>> time.sleep(5) 
->>> time.sleep(5, 5)
+
+# just double checking
 >>> time.sleep(5, 5)
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>

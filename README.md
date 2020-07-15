@@ -15,7 +15,7 @@ The book is targeted towards learners who know basic Python - those who can alre
 
 Most of these are still a work in progress. Contributions welcome!
 
-* [The Python `REPL`](python-repl.md)
+* The Python `REPL`
 * The `collections` module and some commonly used data structures like `defaultdict`, `namedtuple` 
 * Context managers - the `with` statement
 * `lambda` and `Callable`

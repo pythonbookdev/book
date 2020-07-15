@@ -56,5 +56,5 @@ Since Python doesn't require you to specify types, it's easier to add bugs to co
 
 Many large applications - like Instagram, YouTube, and Dropbox - start off as one large Python web application \(a monolith\). With good practices around testing and a small team, it's easy to write a production application that's "good enough" for tens of thousands of users. Eventually, components of these websites get separated out into different services, often written in compiled languages for better performance and safety guarantees from the compiler, and better organizational scalability. For example, YouTube talks to its databases via [Vitess](https://vitess.io/), a service written in Go. 
 
-Additionally, with new language features like [type hints](https://docs.python.org/3/library/typing.html), a lot of the benefits of static typing can gradually be applied to Python, so that it can scale to more engineers. But in reality, many features of Python can easily let users cause large technical debt down the road, like allowing circular imports, so one has to be extremely careful and encourage good patterns from the start. We'll discuss this more in detail later.
+We'll discuss this more in detail later.
 

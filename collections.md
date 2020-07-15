@@ -65,19 +65,18 @@ pageviews_raw = [
 total_per_page_dict = {}
 
 for item in pageviews_raw:
-    
-    url, count = item # broke down the tuple by individual components
-    
+    url, count = item
     if url not in total_per_page_dict:
         total_per_page_dict[url] = 0
-    
     total_per_page_dict[url] += count
 
 print(total_per_page_dict)
 # {'/': 10, '/home': 15, '/get': 10}
 
 
-# -------------------------
+#
+# ==================================
+#
 
 
 # the default dictionary way
@@ -111,8 +110,8 @@ for item in pageview_logs:
     
     # accessing pageviews_grouped_by_route[url]
     # causes either a new list to be created, or
-    # to retrieve the list that already exists at
-    # this point
+    # to retrieve the list that already exists 
+    # for this key
     pageviews_grouped_by_route[url].append(count)
 
 print(pageviews_grouped_by_route)

@@ -13,10 +13,12 @@ The book is targeted towards learners who know basic Python - those who can alre
 
 **Concepts covered:**
 
-* Python code formatting and style guides
-* Quick recap on data structures like `list`, `dict`, and `set` 
+Most of these are still a work in progress. Contributions welcome!
+
+* The Python `REPL`
 * The `collections` module and some commonly used data structures like `defaultdict`, `namedtuple` 
 * Context managers - the `with` statement
+* `lambda` and `Callable`
 * File I/O. Reading and writing a common format like `JSON` 
 * Exceptions. Best practices for handling exceptions in production code
 * Testing via `pytest` . Best practices for writing tests, and appropriate use of `mock` and `mock.patch` 
@@ -26,6 +28,7 @@ The book is targeted towards learners who know basic Python - those who can alre
 * Code organization, Pythonic code, and conventions -- designing for debuggability
 * Effective Logging
 * Typing in Python and Mypy
+* Python code formatting and style guides
 
 This book is geared towards teaching concepts that we've seen commonly used in large Python codebases. For example, we've rarely seen use of functional operators like `map/reduce/filter`, so those will be omitted here. This will reduce superfluous material you need to learn.
 

@@ -2,6 +2,7 @@
 
 * [Production Ready Python](README.md)
 * [Why Python?](why-python.md)
-* [Untitled](untitled.md)
+* [The collections module](untitled.md)
+* [Lambdas and Callables](lambdas-and-callables.md)
 * [About](about.md)
 

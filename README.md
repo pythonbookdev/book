@@ -9,7 +9,8 @@ The book is targeted towards learners who know basic Python - those who can alre
 ### Material
 
 * We target Python 3, since Python 2 has reached its end of life
-* We try to stick to standard library modules as much as possible, with a few exceptions like `requests` due to their ubiquity
+
+
 
 **Concepts covered:**
 
@@ -17,7 +18,7 @@ Most of these are still a work in progress. Contributions welcome!
 
 * [The Python `REPL`](python-repl.md)
 * [Lambdas and Callables](lambdas-and-callables.md)
-* The `collections` module and some commonly used data structures like `defaultdict`, `namedtuple` 
+* [The `collections` module and some commonly used data structures like `defaultdict`, `namedtuple` ](collections.md)
 * Context managers - the `with` statement
 * File I/O. Reading and writing a common format like `JSON` 
 * Exceptions. Best practices for handling exceptions in production code

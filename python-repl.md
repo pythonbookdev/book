@@ -1,8 +1,8 @@
-# Python REPL
+# The Python REPL
 
 ### What's a REPL?
 
-Python is an interpreted language. Which means Python directly reads source code line by line and executes it on the fly. For example, if you have a source file that looks like this:
+Python is an interpreted language. Which means Python reads code files line by line and executes it on the fly. For example, let's say you have a source file that looks like this:
 
 ```python
 # hello_world.py
@@ -15,7 +15,7 @@ sleep(5) # block for 5 seconds
 asdfasdfasdf # NameError: this variable is not defined
 ```
 
-In another language, like Java, an error like the one on line 8 would fail at the compilation step and would not run at all. But Python will run the first six lines happily, and only fail when reaching that line.
+Python will run the first six lines happily, block for 5 seconds, and only fail when reaching line 8. In another language, like Java, an error like the one on line 8 would fail at the compilation step and would not run at all. 
 
 Given this nature of executing lines of code on the fly, one can imagine writing a program that waits for the user to input a line of code, and once they do so, execute that line, and then wait for the next input. For example:
 

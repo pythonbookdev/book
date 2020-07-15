@@ -4,7 +4,7 @@ Why would someone write a production application in Python?
 
 ### **Advantages**
 
-**Ease of Use:** Python is an extremely easy language to learn.
+**Ease of Use:** Python is an extremely easy language to learn, due to its simple and intuitive design. Consequently, it's easy for engineers to ramp up and be highly productive quickly.
 
 **Community:** There's a lot of high quality, supported, and open source libraries for most requirements to run a production application. For example, there's battle tested projects with hundreds of thousands of users for [running](https://www.google.com/search?q=flask+python&oq=flask+&aqs=chrome.1.69i57j0l7.1725j0j7&sourceid=chrome&ie=UTF-8) web [servers](https://www.djangoproject.com/) and interacting with [databases](https://www.sqlalchemy.org/).
 

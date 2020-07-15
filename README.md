@@ -15,10 +15,10 @@ The book is targeted towards learners who know basic Python - those who can alre
 
 Most of these are still a work in progress. Contributions welcome!
 
-* The Python `REPL`
+* [The Python `REPL`](python-repl.md)
+* [Lambdas and Callables](lambdas-and-callables.md)
 * The `collections` module and some commonly used data structures like `defaultdict`, `namedtuple` 
 * Context managers - the `with` statement
-* `lambda` and `Callable`
 * File I/O. Reading and writing a common format like `JSON` 
 * Exceptions. Best practices for handling exceptions in production code
 * Testing via `pytest` . Best practices for writing tests, and appropriate use of `mock` and `mock.patch` 

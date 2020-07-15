@@ -36,8 +36,8 @@ defaultdict(<class 'str'>, {'hello': ''})
 >>> dictionary
 defaultdict(<class 'str'>, {'hello': '', 'byebye': 'farewell'})
 
->>> # defaultdict can take any lambda as a default value, since a lambda is
->>> # just another callable
+>>> # defaultdict can take a lambda with no args as a default value, 
+>>> # since a its just another callable
 >>> another_dictionary = defaultdict(lambda: 'default string')
 >>> another_dictionary['hello'] += ' another string'
 >>> another_dictionary
@@ -53,7 +53,7 @@ defaultdict(<function <lambda> at 0x7f1b6a75c670>, {'hello': 'default string ano
 # together
 ```
 
-This is useful in cases like performing arithmetic with default values. For example
+This is useful in cases like performing arithmetic with default values. For example:
 
 ```python
 from collections import defaultdict
@@ -66,7 +66,6 @@ pageviews_raw = [
 ]
 
 # the non default dictionary way
-
 total_per_page_dict = {}
 
 for item in pageviews_raw:
@@ -76,13 +75,6 @@ for item in pageviews_raw:
     total_per_page_dict[url] += count
 
 print(total_per_page_dict)
-# {'/': 10, '/home': 15, '/get': 10}
-
-
-
-# ==================================
-
-
 
 # the default dictionary way
 total_per_page_defaultdict = defaultdict(int)
@@ -93,6 +85,8 @@ for item in pageviews_raw:
     total_per_page_defaultdict[url] += count
 
 assert total_per_page_dict == total_per_page_defaultdict
+
+# outputs: {'/': 10, '/home': 15, '/get': 10}
 ```
 
 `defaultdict` is also useful to build nested data structures. It lets you skip initializing a nested data structure. For example:
@@ -107,7 +101,6 @@ pageviews_raw = [
     ('/home', 10),
 ]
 
-
 pageviews_grouped_by_route = defaultdict(list)
 
 for item in pageview_logs:
@@ -120,6 +113,7 @@ for item in pageview_logs:
     pageviews_grouped_by_route[url].append(count)
 
 print(pageviews_grouped_by_route)
+
 # defaultdict(<class 'list'>, {'/': [10], '/home': [5, 10], '/get': [10]})
 ```
 

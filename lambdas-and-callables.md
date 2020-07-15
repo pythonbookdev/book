@@ -9,12 +9,12 @@ def greet():
     print("Hello")
 
 # g is callable
-assert callable(g)
+assert callable(greet)
 
 # g is just another object
 assert isinstance(greet, object)
 
-g()
+greet()
 ```
 
 It's also possible to make regular [objects](https://stackoverflow.com/questions/111234/what-is-a-callable) \(instances of a `class` \) callable, but we rarely need to do that, so we're omitting that here. On the other hand, it's often useful to create a function on the fly. 

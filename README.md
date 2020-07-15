@@ -32,8 +32,6 @@ Most of these are still a work in progress. Contributions welcome!
 
 This book is geared towards teaching concepts that we've seen commonly used in large Python codebases. For example, we've rarely seen use of functional operators like `map/reduce/filter`, so those will be omitted here. This will reduce superfluous material you need to learn.
 
-Finally, we will give unique insights into our experience of managing large scale Python backend applications when relevant.
-
 ### Open Source
 
 This book is [open source](https://github.com/pythonbookdev/book) and welcomes contributions. For larger changes, like adding a new section, make a Github Issue for discussion, and directly send a pull request for small changes.

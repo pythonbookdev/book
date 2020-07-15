@@ -98,5 +98,11 @@ TypeError: sleep() takes exactly one argument (2 given)
 >>> exit()
 ```
 
-As you can see, this becomes an extremely useful tool to get quick feedback. You can also paste in full functions, classes, anything you need to manually test quickly.
+As you can see, this becomes an extremely useful tool to get quick feedback. You can also paste in full functions, classes, or any code you need to manually test quickly.
+
+Every time the REPL is used in the rest of the course, you will see the three `>` signs
+
+```python
+>>>
+```
 

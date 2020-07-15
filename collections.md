@@ -2,7 +2,7 @@
 
 > Prerequisites - Knowing how basic data structures like `list`, `dict`, `tuple`and `set` work.
 
-Most backend tasks can be done with one of the built-in data structures. But sometimes, it's more idiomatic to use a specialized data structure, or there's a need for a special feature, like a dictionary that keeps track of insertion order. We'll be covering some useful modules from the `collections` module that fit that bill.
+Most standard back-end tasks require one of the inbuilt data structures. But sometimes, it's more idiomatic to use a particular data structure, or there's a requirement for a special property, like a dictionary that keeps track of insertion order. We'll be covering some useful modules from the `collections` module that fit that bill.
 
 ### defaultdict
 
@@ -74,9 +74,9 @@ print(total_per_page_dict)
 # {'/': 10, '/home': 15, '/get': 10}
 
 
-
+#
 # ==================================
-
+#
 
 
 # the default dictionary way

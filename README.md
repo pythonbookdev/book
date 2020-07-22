@@ -4,13 +4,11 @@ Welcome to Production Ready Python. This book's goal is to make you comfortable 
 
 ### Intended Audience
 
-The book is targeted towards learners who know basic Python - those who can already manipulate simple data structures like lists, and can write simple programs.
+The book is targeted towards learners who know basic Python - those who can already manipulate simple data structures like lists, dicts and tuples, familiar with classes, the concept of`self`, and can write and execute simple programs.
 
 ### Material
 
 * We target Python 3, since Python 2 has reached its end of life
-
-
 
 **Concepts covered:**
 
@@ -18,7 +16,7 @@ Most of these are still a work in progress. Contributions welcome!
 
 * [The Python `REPL`](python-repl.md)
 * [Lambdas and Callables](lambdas-and-callables.md)
-* [The `collections` module and some commonly used data structures like `defaultdict`, `namedtuple` ](collections.md)
+* [Idiomatic collections and some commonly used data structures like `defaultdict`, `namedtuple` ](collections.md)
 * Context managers - the `with` statement
 * File I/O. Reading and writing a common format like `JSON` 
 * Exceptions. Best practices for handling exceptions in production code

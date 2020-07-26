@@ -18,7 +18,7 @@ Conversely, let's explore why someone would _not_ want to write a production app
 
 **Performance:** Python is a slow language. If you expect to do any serious computation work in your application, Python might not be the right fit.
 
-**Organizational scalability:** Python does not require users to specify types up front - it's a dynamically typed language. Let's explore that difference really quickly: in Java, if you want to specify a list of numbers, you need to specify its type. For example:
+**Organizational scalability:** Python does not require users to specify types up front - it's a dynamically typed language. Let's explore that difference briefly: in Java, if you want to specify a list of numbers, you need to specify its type. For example:
 
 Java
 
